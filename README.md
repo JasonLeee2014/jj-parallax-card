@@ -1,0 +1,68 @@
+##jj-parallax-card for Vue 
+
+jj-parallax-card is a Vue card component in parallax style. You can modify its size, light effect, and add any other components in its background and foreground. And absolutely it can handle all events like a normal html element.
+
+**Thanks the implementation idea from** [codepen](https://codepen.io/electerious/pen/rroqdL)
+
+![jj-parallax-card-demo](/Users/zaka/Desktop/jj-parallax-card-demo.gif)
+
+### How To Use
+
+1. Import it into your vue component.
+
+   ```javascript
+   import JJParallaxCard from 'JJParallaxCard'
+   ```
+
+   ```javascript
+   components: {
+       'jj-parallax-card':JJParallaxCard,
+     },
+   ```
+
+2. use it in your code
+
+   ```html
+   <jj-parallax-card></jj-parallax-card>
+   ```
+
+   after set the size of the jj-parallax-card, you could set some properties to do some customisation. Here are the properties and actions you can set
+
+   | Property-name | Type    | Description                                                  |
+   | ------------- | ------- | ------------------------------------------------------------ |
+   | light-color   | String  | a hex string to set the light color, default value is white. **if you don't want to have a Reflective-light-layer, just set this property to 'transparent'** |
+   | click-effect  | Boolean | Ture if the card can be clicked down. Set it to true when you want the parallax card acts like a button. Default value is **false** |
+
+   | Action-name | Description                     |
+   | ----------- | ------------------------------- |
+   | click       | Trigged when clicked that card. |
+
+   your code will be like this
+
+   ```html
+   <jj-parallax-card lightColor="white" :click-effect="true" style="float:left; width: 300px; height: 300px;" @click="click"></jj-parallax-card>
+   ```
+
+3. Use slot to set the background and foreground view of the parallax-card
+
+   ![jj-parallax-card-img-1](/Users/zaka/Desktop/jj-parallax-card-img-1.png)
+
+   | Type                                                         | Sample                              |
+   | ------------------------------------------------------------ | ----------------------------------- |
+   | slot="front" //this slot will be inserted into the foreground | \<img slot="content" src="" alt=""> |
+   | slot="content" //this slot will be inserted into the background | \<div slot="front"></div?           |
+
+   and off course you can add any components into the slot. Including embedded jj-paralllax-card component like in the gif.
+
+   Your code will be like this
+
+   ```html
+   <jj-parallax-card lightColor="white" style="float:left; width: 300px; height: 300px;" @click="click">
+         <img slot="content" src="background.png" alt="">
+         <div slot="front">
+           <img style="width: 100px; height: 100px;" src="front.png" alt="">
+         </div>
+   </jj-parallax-card>
+   ```
+
+   ### Demo
