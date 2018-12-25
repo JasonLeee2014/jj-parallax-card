@@ -1,7 +1,7 @@
 {
   "name": "jj-parallax-card",
-  "version": "1.0.0",
-  "description": "jj-parallax-card is a Vue card component in parallax style. You can modify its size, light effect, and add any other components in its background and foreground. And absolutely it can handle all events like a normal html element.",
+  "version": "1.0.1",
+  "description": "jj-parallax-card is a Vue component to mimic Apple-tv style card. You can modify its size, light effect, and add any other components in its background and foreground to create your own 3d-card. And absolutely it can handle all events like a normal html element, like click and hover.",
   "keywords": [
     "parallax",
     "vue",

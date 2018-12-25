@@ -1,6 +1,6 @@
 ##jj-parallax-card for Vue 
 
-jj-parallax-card is a Vue card component in parallax style. You can modify its size, light effect, and add any other components in its background and foreground. And absolutely it can handle all events like a normal html element.
+jj-parallax-card is a Vue component to mimic Apple-tv style card. You can modify its size, light effect, and add any other components in its background and foreground to create your own 3d-card. And absolutely it can handle all events like a normal html element, like click and hover.
 
 **Thanks the implementation idea from** [codepen](https://codepen.io/electerious/pen/rroqdL)
 
@@ -12,7 +12,11 @@ jj-parallax-card is a Vue card component in parallax style. You can modify its s
 
 ### How To Use
 
-1. Import it into your vue component.
+1. install jj-parallax-card via npm
+
+   `npm i jj-parallax-card`
+
+2. Import it into your vue component.
 
    ```javascript
    import JJParallaxCard from 'JJParallaxCard'
@@ -24,7 +28,7 @@ jj-parallax-card is a Vue card component in parallax style. You can modify its s
      },
    ```
 
-2. use it in your code
+3. use it in your code
 
    ```html
    <jj-parallax-card></jj-parallax-card>
@@ -47,7 +51,7 @@ jj-parallax-card is a Vue card component in parallax style. You can modify its s
    <jj-parallax-card lightColor="white" :click-effect="true" style="float:left; width: 300px; height: 300px;" @click="click"></jj-parallax-card>
    ```
 
-3. Use slot to set the background and foreground view of the parallax-card
+4. Use slot to set the background and foreground view of the parallax-card
 
    ![jj-parallax-card-img-1](https://github.com/JasonLeee2014/jj-parallax-card/blob/master/jj-parallax-card-img-1.png?raw=true)
 
@@ -70,3 +74,7 @@ jj-parallax-card is a Vue card component in parallax style. You can modify its s
    ```
 
    ### Demo
+
+   demo are in the 'demo' zip.
+
+   Remember to `npm install`
