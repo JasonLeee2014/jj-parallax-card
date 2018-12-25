@@ -4,7 +4,11 @@ jj-parallax-card is a Vue card component in parallax style. You can modify its s
 
 **Thanks the implementation idea from** [codepen](https://codepen.io/electerious/pen/rroqdL)
 
-![jj-parallax-card-demo](/Users/zaka/Desktop/jj-parallax-card-demo.gif)
+![jj-parallax-card-demo](https://github.com/JasonLeee2014/jj-parallax-card/blob/master/jj-parallax-card-demo.gif?raw=true)
+
+![demo](https://github.com/JasonLeee2014/jj-parallax-card/blob/master/jj-parallax-card-img-2.png?raw=true)
+
+![demo](https://github.com/JasonLeee2014/jj-parallax-card/blob/master/jj-parallax-card-img-3.png?raw=true)
 
 ### How To Use
 
@@ -45,7 +49,7 @@ jj-parallax-card is a Vue card component in parallax style. You can modify its s
 
 3. Use slot to set the background and foreground view of the parallax-card
 
-   ![jj-parallax-card-img-1](/Users/zaka/Desktop/jj-parallax-card-img-1.png)
+   ![jj-parallax-card-img-1](https://github.com/JasonLeee2014/jj-parallax-card/blob/master/jj-parallax-card-img-1.png?raw=true)
 
    | Type                                                         | Sample                              |
    | ------------------------------------------------------------ | ----------------------------------- |
