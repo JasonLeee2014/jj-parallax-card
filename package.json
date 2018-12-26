@@ -1,7 +1,7 @@
 {
   "name": "jj-parallax-card",
-  "version": "1.0.1",
-  "description": "jj-parallax-card is a Vue component to mimic Apple-tv style card. You can modify its size, light effect, and add any other components in its background and foreground to create your own 3d-card. And absolutely it can handle all events like a normal html element, like click and hover.",
+  "version": "1.0.3",
+  "description": "jj-parallax-card is a Vue component to mimic Apple-tv style card. You can modify its size, light effect, and add any other components in its background and foreground to create your own 3d-card(yes youc could embed another parallax card into it). And absolutely it can handle all events like a normal html element, like click and hover.And you can even make it acts completely like a 3d button.",
   "keywords": [
     "parallax",
     "vue",
@@ -9,10 +9,17 @@
     "apple",
     "appletv",
     "apple-tv",
-    "reflect",
+    "reflection",
     "3d",
     "button",
-    "dynamic"
+    "dynamic",
+    "atv",
+    "component",
+    "effect",
+    "shine",
+    "Apple TV",
+    "image",
+    "atvImg"
   ],
   "author": {
     "name": "junjie-lee",
