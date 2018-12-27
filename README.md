@@ -21,7 +21,7 @@ jj-parallax-card is a Vue component to mimic Apple-tv style card. You can modify
 2. Import it into your vue component.
 
    ```javascript
-   import JJParallaxCard from 'JJParallaxCard'
+   import JJParallaxCard from 'jj-parallax-card'
    ```
 
    ```javascript
